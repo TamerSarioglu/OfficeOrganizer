@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:background="@drawable/background">
+
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="150dp"
+		android:gravity="center"
+		android:src="@drawable/firebase_logo"/>
+
+	<EditText
+		android:id="@+id/textView_Login_Email"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:hint="Email"
+		android:textAppearance="?android:textAppearanceLarge"
+		android:inputType="textEmailAddress"
+		android:textColorHint="#DDA534"
+		android:textColor="#DDA534"/>
+
+	<EditText
+		android:id="@+id/textView_Login_Password"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:hint="Password"
+		android:textAppearance="?android:textAppearanceLarge"
+		android:inputType="textPassword"
+		android:textColorHint="#DDA534"
+		android:textColor="#DDA534"/>
+
+	<Button
+		android:background="@drawable/backdesign"
+		android:id="@+id/button_Login"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="LOGIN"
+		android:layout_margin="10dp"
+		android:textAppearance="?android:textAppearanceMedium"/>
+
+	<TextView
+		android:id="@+id/textView_Dont_Have_Account"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Don't Have Account? Sign Up Here"
+		android:gravity="center"
+		android:textAppearance="?android:textAppearanceSmall"
+		android:textColor="#DDA534"/>
+
+
+
+
+</LinearLayout>
